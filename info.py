@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '25059287'))
 API_HASH = environ.get('API_HASH', '5e7701953107a273724b07f2beaf8f17')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6964203412').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/dvl_naruto_06")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002583655280'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie_group_bot_0')
